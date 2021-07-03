@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308792772690583300C9423B /* BlimCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308792762690583300C9423B /* BlimCloneApp.swift */; };
+		308792792690583300C9423B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308792782690583300C9423B /* ContentView.swift */; };
+		3087927B2690583400C9423B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3087927A2690583400C9423B /* Assets.xcassets */; };
+		3087927E2690583400C9423B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3087927D2690583400C9423B /* Preview Assets.xcassets */; };
+		308792892690583400C9423B /* BlimCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308792882690583400C9423B /* BlimCloneTests.swift */; };
+		308792942690583400C9423B /* BlimCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308792932690583400C9423B /* BlimCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		308792852690583400C9423B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3087926B2690583300C9423B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308792722690583300C9423B;
+			remoteInfo = BlimClone;
+		};
+		308792902690583400C9423B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3087926B2690583300C9423B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308792722690583300C9423B;
+			remoteInfo = BlimClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		308792732690583300C9423B /* BlimClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlimClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308792762690583300C9423B /* BlimCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlimCloneApp.swift; sourceTree = "<group>"; };
+		308792782690583300C9423B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3087927A2690583400C9423B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3087927D2690583400C9423B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3087927F2690583400C9423B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308792842690583400C9423B /* BlimCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlimCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		308792882690583400C9423B /* BlimCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlimCloneTests.swift; sourceTree = "<group>"; };
+		3087928A2690583400C9423B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3087928F2690583400C9423B /* BlimCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlimCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		308792932690583400C9423B /* BlimCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlimCloneUITests.swift; sourceTree = "<group>"; };
+		308792952690583400C9423B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308792702690583300C9423B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308792812690583400C9423B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3087928C2690583400C9423B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3087926A2690583300C9423B = {
+			isa = PBXGroup;
+			children = (
+				308792752690583300C9423B /* BlimClone */,
+				308792872690583400C9423B /* BlimCloneTests */,
+				308792922690583400C9423B /* BlimCloneUITests */,
+				308792742690583300C9423B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		308792742690583300C9423B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308792732690583300C9423B /* BlimClone.app */,
+				308792842690583400C9423B /* BlimCloneTests.xctest */,
+				3087928F2690583400C9423B /* BlimCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308792752690583300C9423B /* BlimClone */ = {
+			isa = PBXGroup;
+			children = (
+				308792762690583300C9423B /* BlimCloneApp.swift */,
+				308792782690583300C9423B /* ContentView.swift */,
+				3087927A2690583400C9423B /* Assets.xcassets */,
+				3087927F2690583400C9423B /* Info.plist */,
+				3087927C2690583400C9423B /* Preview Content */,
+			);
+			path = BlimClone;
+			sourceTree = "<group>";
+		};
+		3087927C2690583400C9423B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3087927D2690583400C9423B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		308792872690583400C9423B /* BlimCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				308792882690583400C9423B /* BlimCloneTests.swift */,
+				3087928A2690583400C9423B /* Info.plist */,
+			);
+			path = BlimCloneTests;
+			sourceTree = "<group>";
+		};
+		308792922690583400C9423B /* BlimCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				308792932690583400C9423B /* BlimCloneUITests.swift */,
+				308792952690583400C9423B /* Info.plist */,
+			);
+			path = BlimCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		308792722690583300C9423B /* BlimClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308792982690583400C9423B /* Build configuration list for PBXNativeTarget "BlimClone" */;
+			buildPhases = (
+				3087926F2690583300C9423B /* Sources */,
+				308792702690583300C9423B /* Frameworks */,
+				308792712690583300C9423B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlimClone;
+			productName = BlimClone;
+			productReference = 308792732690583300C9423B /* BlimClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		308792832690583400C9423B /* BlimCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3087929B2690583400C9423B /* Build configuration list for PBXNativeTarget "BlimCloneTests" */;
+			buildPhases = (
+				308792802690583400C9423B /* Sources */,
+				308792812690583400C9423B /* Frameworks */,
+				308792822690583400C9423B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308792862690583400C9423B /* PBXTargetDependency */,
+			);
+			name = BlimCloneTests;
+			productName = BlimCloneTests;
+			productReference = 308792842690583400C9423B /* BlimCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3087928E2690583400C9423B /* BlimCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3087929E2690583400C9423B /* Build configuration list for PBXNativeTarget "BlimCloneUITests" */;
+			buildPhases = (
+				3087928B2690583400C9423B /* Sources */,
+				3087928C2690583400C9423B /* Frameworks */,
+				3087928D2690583400C9423B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308792912690583400C9423B /* PBXTargetDependency */,
+			);
+			name = BlimCloneUITests;
+			productName = BlimCloneUITests;
+			productReference = 3087928F2690583400C9423B /* BlimCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3087926B2690583300C9423B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					308792722690583300C9423B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					308792832690583400C9423B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 308792722690583300C9423B;
+					};
+					3087928E2690583400C9423B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 308792722690583300C9423B;
+					};
+				};
+			};
+			buildConfigurationList = 3087926E2690583300C9423B /* Build configuration list for PBXProject "BlimClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3087926A2690583300C9423B;
+			productRefGroup = 308792742690583300C9423B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				308792722690583300C9423B /* BlimClone */,
+				308792832690583400C9423B /* BlimCloneTests */,
+				3087928E2690583400C9423B /* BlimCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308792712690583300C9423B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3087927E2690583400C9423B /* Preview Assets.xcassets in Resources */,
+				3087927B2690583400C9423B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308792822690583400C9423B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3087928D2690583400C9423B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3087926F2690583300C9423B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308792792690583300C9423B /* ContentView.swift in Sources */,
+				308792772690583300C9423B /* BlimCloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308792802690583400C9423B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308792892690583400C9423B /* BlimCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3087928B2690583400C9423B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308792942690583400C9423B /* BlimCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		308792862690583400C9423B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308792722690583300C9423B /* BlimClone */;
+			targetProxy = 308792852690583400C9423B /* PBXContainerItemProxy */;
+		};
+		308792912690583400C9423B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308792722690583300C9423B /* BlimClone */;
+			targetProxy = 308792902690583400C9423B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		308792962690583400C9423B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		308792972690583400C9423B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		308792992690583400C9423B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BlimClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A7QK6XB9U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlimClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcpd.BlimClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3087929A2690583400C9423B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BlimClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A7QK6XB9U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlimClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcpd.BlimClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3087929C2690583400C9423B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A7QK6XB9U;
+				INFOPLIST_FILE = BlimCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcpd.BlimCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlimClone.app/BlimClone";
+			};
+			name = Debug;
+		};
+		3087929D2690583400C9423B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A7QK6XB9U;
+				INFOPLIST_FILE = BlimCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcpd.BlimCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlimClone.app/BlimClone";
+			};
+			name = Release;
+		};
+		3087929F2690583400C9423B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A7QK6XB9U;
+				INFOPLIST_FILE = BlimCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcpd.BlimCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlimClone;
+			};
+			name = Debug;
+		};
+		308792A02690583400C9423B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A7QK6XB9U;
+				INFOPLIST_FILE = BlimCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcpd.BlimCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlimClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3087926E2690583300C9423B /* Build configuration list for PBXProject "BlimClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308792962690583400C9423B /* Debug */,
+				308792972690583400C9423B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308792982690583400C9423B /* Build configuration list for PBXNativeTarget "BlimClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308792992690583400C9423B /* Debug */,
+				3087929A2690583400C9423B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3087929B2690583400C9423B /* Build configuration list for PBXNativeTarget "BlimCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3087929C2690583400C9423B /* Debug */,
+				3087929D2690583400C9423B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3087929E2690583400C9423B /* Build configuration list for PBXNativeTarget "BlimCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3087929F2690583400C9423B /* Debug */,
+				308792A02690583400C9423B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3087926B2690583300C9423B /* Project object */;
+}
