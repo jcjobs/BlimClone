@@ -15,7 +15,7 @@ struct Episode: Identifiable {
     var episodeNumber: Int
     var thumbnailImageURLString: String
     var desc: String
-    var lenght: Int
+    var length: Int
     
     var videoURL: URL
     

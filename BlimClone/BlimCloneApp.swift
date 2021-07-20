@@ -11,7 +11,8 @@ import SwiftUI
 struct BlimCloneApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            //HomeView()
+            ContentView()
         }
     }
 }

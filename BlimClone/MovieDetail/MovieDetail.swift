@@ -56,7 +56,7 @@ struct MovieDetail: View {
                             }
                             
                             
-                            CurrentEpisodeInfo(movie: movie)
+                            CurrentEpisodeInfoView(movie: movie)
                             
                             
                             CastInfo(movie: movie)
@@ -199,7 +199,7 @@ struct CastInfo: View {
     }
 }
 
-struct CurrentEpisodeInfo: View {
+struct CurrentEpisodeInfoView: View {
     var movie: Movie
     
     var body: some View {
@@ -219,3 +219,4 @@ struct CurrentEpisodeInfo: View {
         }
     }
 }
+

@@ -25,16 +25,16 @@ let exampleTrailer3 = Trailer(name: "SThe Mysterious", videoURL: exampleVideoURL
 let exampleTrailers = [exampleTrailer1, exampleTrailer2, exampleTrailer3]
 
 
-let episode1 = Episode(name: "Some Name1", season: 1, episodeNumber: 1, thumbnailImageURLString: "https://picsum.photos/300/110", desc: "Some description 1", lenght: 54, videoURL: exampleVideoURL)
-let episode2 = Episode(name: "Some Name2", season: 1, episodeNumber: 2, thumbnailImageURLString: "https://picsum.photos/300/111", desc: "Some description 2", lenght: 54, videoURL: exampleVideoURL)
-let episode3 = Episode(name: "Some Name3", season: 1, episodeNumber: 3, thumbnailImageURLString: "https://picsum.photos/300/112", desc: "Some description 3", lenght: 54, videoURL: exampleVideoURL)
-let episode4 = Episode(name: "Some Name1", season: 2, episodeNumber: 1, thumbnailImageURLString: "https://picsum.photos/300/113", desc: "Some description 4", lenght: 54, videoURL: exampleVideoURL)
-let episode5 = Episode(name: "Some Name2", season: 2, episodeNumber: 2, thumbnailImageURLString: "https://picsum.photos/300/114", desc: "Some description 5", lenght: 54, videoURL: exampleVideoURL)
-let episode6 = Episode(name: "Some Name3", season: 3, episodeNumber: 1, thumbnailImageURLString: "https://picsum.photos/300/115", desc: "Some description 6", lenght: 54, videoURL: exampleVideoURL)
+let episode1 = Episode(name: "Some Name1", season: 1, episodeNumber: 1, thumbnailImageURLString: "https://picsum.photos/300/110", desc: "Some description 1", length: 54, videoURL: exampleVideoURL)
+let episode2 = Episode(name: "Some Name2", season: 1, episodeNumber: 2, thumbnailImageURLString: "https://picsum.photos/300/111", desc: "Some description 2", length: 54, videoURL: exampleVideoURL)
+let episode3 = Episode(name: "Some Name3", season: 1, episodeNumber: 3, thumbnailImageURLString: "https://picsum.photos/300/112", desc: "Some description 3", length: 54, videoURL: exampleVideoURL)
+let episode4 = Episode(name: "Some Name1", season: 2, episodeNumber: 1, thumbnailImageURLString: "https://picsum.photos/300/113", desc: "Some description 4", length: 54, videoURL: exampleVideoURL)
+let episode5 = Episode(name: "Some Name2", season: 2, episodeNumber: 2, thumbnailImageURLString: "https://picsum.photos/300/114", desc: "Some description 5", length: 54, videoURL: exampleVideoURL)
+let episode6 = Episode(name: "Some Name3", season: 3, episodeNumber: 1, thumbnailImageURLString: "https://picsum.photos/300/115", desc: "Some description 6", length: 54, videoURL: exampleVideoURL)
 let allExampleEpisodes = [episode1, episode2, episode3, episode4, episode5, episode6]
 
 
-let episodeExampleInfo = CurrrentEpisodeInfo(episodeName: "Some name", desc: "Some Description for this espisode", season: 1, episode: 1)
+let episodeExampleInfo = CurrentEpisodeInfo(episodeName: "Some name", desc: "Some Description for this espisode", season: 1, episode: 1)
 
 
 let exampleMovie1 = Movie(
@@ -151,5 +151,12 @@ extension String {
         let fontAttributes = [NSAttributedString.Key.font: font]
         let size = self.size(withAttributes: fontAttributes)
         return size.width
+    }
+}
+
+
+extension View {
+    func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }

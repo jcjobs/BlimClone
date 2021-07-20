@@ -12,7 +12,6 @@ struct HomeView: View {
     
     let screen = UIScreen.main.bounds
     
-    
     @State private var movieDetailToShow: Movie?
     
     var body: some View {
@@ -37,35 +36,7 @@ struct HomeView: View {
                     
                     
                     //TableView
-                    ForEach(viewModel.allCategories, id: \.self ) { category in
-                        
-                        VStack {
-                            HStack {
-                                Text(category)
-                                    .font(.title3)
-                                    .bold()
-                                Spacer()
-                            }
-                            
-                            //Each row:
-                            ScrollView(.horizontal, showsIndicators: false) {
-                                LazyHStack {
-                                   
-                                    ForEach(viewModel.getMovie(forCat: category)) { movie in
-                                        StandarHomeMovie(movie: movie)
-                                            .frame(width: 100, height: 200)
-                                            .padding(.horizontal, 20)
-                                            .onTapGesture {
-                                                movieDetailToShow = movie
-                                            }
-                                    }
-                                    
-                                }
-                            }
-                            
-                        }
-                
-                    }
+                    HomeStack(viewModel: viewModel, movieDetailToShow: $movieDetailToShow)
                 }
             }
             
@@ -86,3 +57,57 @@ struct HomeView_Previews: PreviewProvider {
         HomeView()
     }
 }
+
+enum HomeTopRow: String, CaseIterable {
+    case home = "Home"
+    case tvShows = "TV Shows"
+    case movies = "Movies"
+    case myList = "My List"
+}
+
+struct HomeStack: View {
+    var viewModel: HomeVM
+    
+    @Binding var movieDetailToShow: Movie?
+    
+    var body: some View {
+        ForEach(viewModel.allCategories, id: \.self ) { category in
+            
+            VStack {
+                HStack {
+                    Text(category)
+                        .font(.title3)
+                        .bold()
+                    Spacer()
+                }
+                
+                //Each row:
+                ScrollView(.horizontal, showsIndicators: false) {
+                    LazyHStack {
+                        
+                        ForEach(viewModel.getMovie(forCat: category)) { movie in
+                            StandarHomeMovie(movie: movie)
+                                .frame(width: 100, height: 200)
+                                .padding(.horizontal, 20)
+                                .onTapGesture {
+                                    movieDetailToShow = movie
+                                }
+                        }
+                        
+                    }
+                }
+                
+            }
+            
+        }
+    }
+}
+
+enum HomeGenre: String {
+    case AllGenres
+    case Action
+    case Comedy
+    case Horror
+    case Thriller
+}
+

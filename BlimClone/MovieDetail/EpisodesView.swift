@@ -48,7 +48,7 @@ struct EpisodesView: View {
                         VStack(alignment: .leading) {
                             Text("\(episode.episodeNumber). \(episode.name)")
                                 .font(.system(size: 16))
-                            Text("\(episode.lenght)m")
+                            Text("\(episode.length)m")
                                 .font(.system(size: 12))
                                 .foregroundColor(.gray)
                         }
