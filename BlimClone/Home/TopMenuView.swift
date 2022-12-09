@@ -20,7 +20,7 @@ struct TopMenuView: View {
                     .frame(width: 100)
             }).buttonStyle(PlainButtonStyle())
             
-            
+            /*
             Spacer()
             
             Button(action: {
@@ -43,6 +43,7 @@ struct TopMenuView: View {
             }, label: {
                 Text("My List")
             }).buttonStyle(PlainButtonStyle())
+ */
         }
         .padding(.leading, 10)
         .padding(.trailing, 30)

@@ -25,6 +25,6 @@ struct CustomVideoPlayer: View {
 
 struct VideoPlayer_Previews: PreviewProvider {
     static var previews: some View {
-        CustomVideoPlayer(url: exampleVideoURL)
+        CustomVideoPlayer(url: randomExampleVideoURL)
     }
 }
